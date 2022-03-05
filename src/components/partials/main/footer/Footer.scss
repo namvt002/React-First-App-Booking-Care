@@ -1,0 +1,103 @@
+.footer-wrap{
+    width: 100%;
+    background-color: #efefef;
+    .footer-top {
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px;
+        .footer-row{
+            display: flex;
+            // justify-content: center;
+            align-items: center;
+            .footer-left {
+                width: 45%;
+                .footer-address{
+                    p{
+                        margin: 10px 0;
+                    }
+                }
+                .footer-logo-bottom{
+                    width: 75%;
+                    height: 5rem;
+                    margin: 1rem 0;
+                    .footer-logo-image{
+                        width: 50%;
+                    }
+                }
+                .footer-logo-top{
+                    width: 50%;
+                    margin: 20px 0;
+                }
+                .name-address{
+                    font-weight: bold;
+                    margin: 10px 0;
+
+                }
+            }
+            .footer-middle {
+                width: 20%;
+                .list-wrap{
+                    .list-item{
+                        margin: 1rem 0;
+                        a{
+                            color: #4bb7fd;
+                        }
+                    }
+                }
+            }
+            .footer-right {
+                width: 32%;
+                .footer-content{
+                    margin: 1.5rem 0;
+                    .footer-location{
+                        font-weight: bold;
+                        margin: .4rem 0;
+                    }
+                }
+            }
+            
+        }
+        .download{
+            border-top: 2px solid rgb(136, 126, 126);
+            margin: 2px 0;
+            p{
+                float: left;
+                margin: 10px 0;
+                .footer-link{
+                    color:#4bb7fd;
+                }
+            }
+           
+        }
+    }
+
+    .footer-bottom{
+        height: 5rem;
+        width: 100%;
+        background-color: #4bb7fd;
+        .footer-bottom-wrap{
+            .footer-bottom-logo{
+                padding-top: 1rem;
+                color:#fff;
+                float: left;
+            }
+            margin: 0 auto;
+            width: 78%;
+            // padding: 20px;
+            .footer-bottom-social{
+                width: 100%;
+                height: 50%;
+                img{
+                    width: 3rem;
+                    height: 100%;
+                    margin-top:1rem;
+                    float: right;
+                    margin-left: 2rem;
+                }
+                
+            }
+        }
+    }
+
+
+}
